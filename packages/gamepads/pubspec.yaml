@@ -11,8 +11,6 @@ flutter:
         default_package: gamepads_linux
       macos:
         default_package: gamepads_darwin
-      windows:
-        default_package: gamepads_windows
 
 environment:
   sdk: '>=2.19.0 <3.0.0'
@@ -24,7 +22,6 @@ dependencies:
   gamepads_darwin: ^0.1.1
   gamepads_linux: ^0.1.1
   gamepads_platform_interface: ^0.1.1
-  gamepads_windows: ^0.1.1
 
 dev_dependencies:
   flame_lint: ^0.2.0
